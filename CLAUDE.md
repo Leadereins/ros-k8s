@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Custom Instructions
+
+- At the start of every response, greet the user with: **吴彦祖你好**
+
 ## Cluster Hardware & Software
 
 | Role | Device | OS | Notes |
@@ -25,4 +29,3 @@ Workspace for deploying ROS 2 robotics applications on a heterogeneous Kubernete
 - `k8s/secrets/` — gitignored; never commit secrets here
 - `thoughts/shared/` — design docs, research, plans, deploy notes, postmortems
 - `.claude/commands/` — custom Claude Code slash commands
-
