@@ -1,0 +1,48 @@
+# ROS
+build/
+devel/
+install/
+log/
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Kubernetes / Secrets
+k8s/secrets/
+*.secret.yaml
+*.secret.yml
+kubeconfig
+*.kubeconfig
+*.key
+*.crt
+*.pem
+
+# Helm
+charts/*/charts/
+charts/*/tmp/
+
+# Kustomize
+k8s/**/kustomization.lock.yaml
+
+# Docker
+docker/.env
+docker-compose.override.yml
+*.tar
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+.env
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
